@@ -1,0 +1,68 @@
+.h-primary {
+    margin: auto;
+}
+
+#c1 h4 {
+    margin: 52px 21px;
+    font-size: 19px;
+}
+
+#c2 h4 {
+    margin: 52px 21px;
+    font-size: 19px;
+}
+
+#c3 h4 {
+    margin: 52px 10px;
+    font-size: 19px;
+}
+
+.content p {
+    font-size: 1.3rem;
+}
+
+.content {
+    width: 70%;
+}
+
+.container {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.part img {
+    margin: 30px auto;
+    /* margin-top:10px; */
+}
+
+.bgimg p {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.bgimg button {
+    font-size: 1.5rem;
+}
+
+.skills button {
+    font-size: 1.5rem;
+}
+
+.partition {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 40%;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+}
+
+.footer p {
+    font-size: 1.3rem;
+}
+
+.contact p {
+    font-size: 1.5rem;
+}

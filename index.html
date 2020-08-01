@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio1.css">
+    <link rel="stylesheet" media="screen and (max-width:900px)" href="tab.css">
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="phone.css">
+    <link rel="icon" type="image/png" href="img1/smile.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Manan-Portfolio</title>
+</head>
+<body>
+    <div class="total">
+        <div class="define d1" id="hide">
+            <div class="item"><a href="#p1"><button class="b1" id="ib1">
+                        <h1 class="h-primary hover">Home</h1>
+                    </button></a></div>
+            <div class="item"><a href="#about"><button class="b1" id="ib2">
+                        <h1 class="h-primary hover">About</h1>
+                    </button></a></div>
+            <div class="item"><a href="#p3"><button class="b1">
+                        <h1 class="h-primary hover">Contact</h1>
+                    </button></a></div>
+        </div>
+        <nav class="define nav" style="z-index: 1;">
+            <div class="intro">
+                <div class="box">
+                    <img src="img1/cool.png" alt="logo" class="img">
+                    <!-- <i class="fa fa-3x fa-laptop" aria-hidden="true"></i> -->
+                </div>
+                <div class="box">
+                    <h1 class="center style">Manan Gupta</h1>
+                    <h2 class="center">Front End Developer</h2>
+                    <ul style="justify-content: center;">
+                        <li><a id="insta" href="https://instagram.com/man.an.gup.ta?igshid=1p84vql7ym9u9"
+                                target="_blank"><i class="fa fa-instagram m" aria-hidden="true"></i></a></li>
+                        <li><a id="fb" href="https://www.facebook.com/manan.gupta.167" target="_blank"><i
+                                    class="fa fa-facebook m" aria-hidden="true"></i></a></li>
+                        <li><a id="git" href="https://github.com/manangupta3011" target="_blank"><i
+                                    class="fa fa-github m" aria-hidden="true"></i></a></li>
+                        <li><a id="lin" href="https://www.linkedin.com/in/manan-gupta-1b87001a1" target="_blank"><i
+                                    class="fa fa-linkedin m" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- <i class="fa fa-3x fa-bars" onclick="toggleHide()" id="sidebarCollapse"></i> -->
+            <div id="sidebarCollapse">
+                <img src="img1/menu.svg" onclick="toggleHide()" alt="menu">
+            </div>
+            <!-- <button class="btn" onclick="toggleHide()" type="button" id="sidebarCollapse">
+                </button> -->
+
+
+        </nav>
+    </div>
+
+    <section class="sect1" id="p1">
+        <div class="home">
+            <div class="part">
+                <!-- <div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a
+                        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+                <img src="img1/smile.png" alt="profile">
+            </div>
+            <div class="part">
+                <h1>Hello,</h1>
+                <h2 id="heading">a bit about me:</h2>
+                <div class="circle">
+                    <div class="c" id="c1" onclick="divHide1()">
+                        <h4>My intro</h4>
+                    </div>
+                    <div class="c" id="c2" onclick="divHide2()">
+                        <h4>My work</h4>
+                    </div>
+                    <div class="c" id="c3" onclick="divHide3()">
+                        <h4>My hobbies</h4>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="content" id="ct1">
+                        <p> I’m Manan and I am Front-End Web Developer. I love to create websites for web and mobile
+                            devices. I'm also learning Back-End Development and looking forward to be a Full Stack Web
+                            Developer.</p>
+                    </div>
+                    <div class="content" id="ct2">
+                        <p>I am an engineering student who is persuing B.TECH in Computer science and engineering(3rd
+                            year)
+                            from JECRC</p>
+                    </div>
+                    <div class="content" id="ct3">
+                        <p>When I'm free, I like to watch movies and series. I also love dancing and singing, it makes
+                            me feel relax and cool.. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sect2" id="about">
+        <div class="bgimg">
+            <div class="photo">
+                <img src="img1/young.png" alt="photo">
+            </div>
+            <p>Hello this is my personal website where you can find more about me, what I do, what I like and how to get
+                in touch; feel free to do it always I'm a very friendly person. I craft HTML, CSS and JavaScript into a
+                beautiful and efficient website. This portfolio reflects my strengths and skills, which in turn will lead my future aspirations.</p>
+            <button id="hidebutton" onclick="contentshow()">Show More</button>
+        </div>
+        <div class="skills" id="skill1">
+            <div class="partition">
+                <div class="parti" id="d1">
+                    <div class="header" onclick="foothide1()">
+                        <h1>Core Java</h1>
+                    </div>
+                    <div class="footer" id="f1">
+                        <p>Having a good knowledge of Core Java(version 1.8). The main objective of Java programming
+                            language creation was to make it portable, simple and secure programming language.</p>
+                    </div>
+                </div>
+                <div class="parti" id="d2">
+                    <div class="header" onclick="foothide2()">
+                        <h1>DSA</h1>
+                    </div>
+                    <div class="footer" id="f2">
+                        <p>Using combination of data structures and algorithms, we can improve performance of program
+                            drastically. I constantly upgrading my knowledge in data structures and algorithms.</p>
+                    </div>
+                </div>
+                <div class="parti" id="d3">
+                    <div class="header" onclick="foothide3()">
+                        <h1>Front-end Web Designing</h1>
+                    </div>
+                    <div class="footer" id="f3">
+                        <p>I have in-depth knowledge of HTML5, CSS3 and JavaScript(ES6). Users now use a large variety
+                            of devices with varying screen sizes and resolutions, but all my designs are completely
+                            responsive. Relevant skills: Wordpress, Bootstrap 4.</p>
+                    </div>
+                </div>
+                <div class="parti" id="d4">
+                    <div class="header" onclick="foothide4()">
+                        <h1>MySQL</h1>
+                    </div>
+                    <div class="footer" id="f4">
+                        <p>I have a good command in MySQL. MySQL is the world's most popular open source database. With
+                            its proven performance, reliability and ease-of-use, MySQL has become the leading database
+                            choice for web-based applications.</p>
+                    </div>
+                </div>
+            </div>
+            <button id="showless" onclick="contentHide()">Show less</button>
+        </div>
+    </section>
+
+    <section id="p3">
+        <div class="contact">
+            <h1>Get In Touch</h1>
+            <p>I’m currently available for freelance work.</p>
+            <p>I would like to answer your queries and welcome your suggestions.</p>
+
+            <p>If you have a project that you want to get started, think you need my help with something or just fancy
+                saying hey, then get in touch.
+            </p>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email: </label>
+                        <input type="text" name="name" id="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number: </label>
+                        <input type="number" name="name" id="phone" placeholder="Enter Your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group" id="submit">
+                        <!-- <label for="phone" style="color: white; font-weight: bold; padding: 10px;">Phone Number: </label> -->
+                        <input type="submit" value="Submit" onclick="top()">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy;2020 Manan Gupta All rights reserved.
+        </div>
+    </footer>
+</body>
+<script src="MyScript.js"></script>
+</html>

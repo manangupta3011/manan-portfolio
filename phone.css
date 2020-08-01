@@ -1,0 +1,131 @@
+.h-primary {
+    font-size: 1.2rem;
+    padding: 7px 0px;
+    width: 100%;
+}
+
+.fa-laptop {
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.intro {
+    grid-template-columns: 50px 200px;
+}
+
+.box h1 {
+    font-size: 1.4rem;
+}
+
+.box h2 {
+    font-size: 1.6rem;
+}
+
+/* .fa-motorcycle{
+    font-size: 3rem;
+} */
+
+ul li {
+    margin: 5px 5px;
+}
+
+/* .btn{
+    position: relative;
+    right: 10px;
+    top: -90px;
+} */
+
+#sidebarCollapse {
+    top: -90px;
+}
+
+.home {
+    /* display: grid; */
+    /* grid-template-rows: 1fr 2fr; */
+    display: block;
+}
+
+.part img {
+    width: 40%;
+    height: 40%;
+}
+
+.part h1 {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    font-size: 4.2rem;
+}
+
+.part h2 {
+    margin: auto;
+    width: 240px;
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+.circle {
+    margin: auto;
+    width: 347px;
+    text-align: center;
+    height: 117px;
+}
+
+#c1 h4 {
+    margin: 31px 6px;
+    width: 80px;
+    /* height: 80px; */
+}
+
+#c2 h4 {
+    margin: 33px 6px;
+    width: 80px;
+    /* height: 80px; */
+}
+
+#c3 h4 {
+    margin: 18px 6px;
+    width: 80px;
+    /* height: 80px; */
+}
+
+#c1 {
+    height: 92px;
+}
+
+#c2 {
+    height: 92px;
+}
+
+#c3 {
+    height: 92px;
+}
+
+.content {
+    width: 100%;
+    margin: 0 !important;
+}
+
+.content p {
+    font-size: 1.2rem;
+}
+
+.partition {
+    width: 80%;
+}
+
+#contact-box form {
+    width: 80%;
+}
+#contact-box{
+    padding: 0;
+}
+.contact h1{
+    font-size: 40px;
+}
+.contact p{
+    font-size: 1.2rem;
+}
+#contact-box input, #contact-box textarea {
+font-size: 1rem;
+}
