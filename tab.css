@@ -1,28 +1,40 @@
 .h-primary {
     margin: auto;
 }
+.circle{
+    margin: 29px auto;
+    height: 125px;
+    width: 330px;
+}
+.c{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    margin-top: 13px;
+}
 
 #c1 h4 {
-    margin: 52px 21px;
-    font-size: 19px;
+    margin: 36px 13px;
+    font-size: 17px;
 }
 
 #c2 h4 {
-    margin: 52px 21px;
-    font-size: 19px;
+    margin: 36px 13px;
+    font-size: 17px;
 }
 
 #c3 h4 {
-    margin: 52px 10px;
-    font-size: 19px;
+    margin: 37px 2px;
+    font-size: 17px;
 }
 
 .content p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .content {
-    width: 70%;
+    width: 84%;
+    margin: 0px 22px;
 }
 
 .container {
@@ -30,7 +42,17 @@
     padding: 10px;
     text-align: center;
 }
+.part h1{
+    font-size: 80px;
+    margin:auto;
+    width: 240px;
 
+}
+.part h2{
+    font-size: 33px;
+    margin:auto;
+    width: 280px;
+}
 .part img {
     margin: 30px auto;
     /* margin-top:10px; */
@@ -51,8 +73,8 @@
 
 .partition {
     display: grid;
-    grid-template-columns: 1fr;
-    width: 40%;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
 }
 
 .header h1 {
@@ -65,4 +87,11 @@
 
 .contact p {
     font-size: 1.5rem;
+}
+#contact-box form{
+    width: 60%;
+}
+#contact-box textarea {
+    font-size: 1.5rem;
+    color: #5f5858d6;
 }
