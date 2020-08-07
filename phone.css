@@ -4,21 +4,17 @@
     width: 100%;
 }
 
-.fa-laptop {
-    margin-top: 30px;
-    margin-left: 0px;
-}
-
 .intro {
-    grid-template-columns: 50px 200px;
+    grid-template-columns: 50px 240px;
 }
 
 .box h1 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .box h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    width: 200px;
 }
 
 /* .fa-motorcycle{
@@ -70,22 +66,28 @@ ul li {
     text-align: center;
     height: 117px;
 }
+.container{
+    padding-bottom: 10px;
+}
 
 #c1 h4 {
-    margin: 31px 6px;
+    margin: 37px 6px;
     width: 80px;
+    font-size: 0.9rem;
     /* height: 80px; */
 }
 
 #c2 h4 {
-    margin: 33px 6px;
+    margin: 37px 6px;
     width: 80px;
+    font-size: 0.9rem;
     /* height: 80px; */
 }
 
 #c3 h4 {
-    margin: 18px 6px;
+    margin: 37px 8px;
     width: 80px;
+    font-size: 0.9rem;
     /* height: 80px; */
 }
 
@@ -111,7 +113,8 @@ ul li {
 }
 
 .partition {
-    width: 80%;
+    width: 94%;
+    display: block;
 }
 
 #contact-box form {
@@ -126,6 +129,10 @@ ul li {
 .contact p{
     font-size: 1.2rem;
 }
-#contact-box input, #contact-box textarea {
+#contact-box input, #contact-box {
 font-size: 1rem;
+}
+#contact-box textarea {
+    font-size: 1.4rem;
+    color: #5f5858d6;
 }
