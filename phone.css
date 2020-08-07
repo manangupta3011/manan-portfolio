@@ -69,6 +69,9 @@ ul li {
 .container{
     padding-bottom: 10px;
 }
+.content p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 #c1 h4 {
     margin: 37px 6px;
